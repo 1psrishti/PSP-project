@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 2px;
+}
+
+a{
+    text-decoration: none;
+    color: #8533ff;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+ol{
+    list-style-position: inside;
+}
+
+li{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header{
+    background-color:rgba(0,0,0,0.85);
+    height:150px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fh1{
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+.sh1{
+    padding-left: 50px;
+}
+
+.column{
+    float: left;
+    width: 50%;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.part1{
+    float: left;
+    margin: 50px;
+    width: 50%;
+}
+
+.fimg{
+    margin-top: 20px;
+    margin-left: 50px;
+    height: 600px;
+    width: auto;
+}
+
+.simg{
+    margin-top: 20px;
+    height: 600px;
+    width: 450px;
+}
+
+.quote{
+    padding-top: 20px;
+    font-family: "Lucida Handwriting", cursive;
+    color: #8080ff;
+}
+
+.part2{
+    float: right;
+    margin: 50px;
+    width: 50%;
+}
+
+.firstp{
+    padding-top: 20px;
+}
+
+.part3{
+    clear: both;
+    margin: 30px;
+}
+
+.top{
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.bottom{
+    margin-bottom: 50px;
+}
+
+.four{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.four img{
+    width: 95%;
+    height: auto;
+    border: 1px solid black;
+}
+
+.txt-contents {
+    text-align: center;
+    width: 80%;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 20px;
+    font-family: Garamond;
+    background-color: #faf0f3
+  }
+
+.lasthead{
+    margin: 10%;
+    visibility: hidden;
+}
+
+.part4{
+    padding: 75px;
+    padding-left: 100px;
+}
+
+.laaasthead{
+    margin-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.lsubh{
+    color: #8080ff;
+    font-family: "Lucida Handwriting", cursive;
+}
+
+
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#self{
+    padding: 150px;
+}
+
+#attitude{
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 150px;
+}
+
+footer{
+    background-color:rgba(0,0,0,0.85);
+    height:50px;
+    width:100%;
+    color:#fff;
+    clear: both;
+}
+
+footer p{
+    text-align: right;
+    padding-right: 20px;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+.ff{
+    padding-top: 5px;
+}
